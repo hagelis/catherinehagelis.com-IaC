@@ -64,7 +64,7 @@ const PersonalWebsite = () => {
       <section id="home" className="pt-16 min-h-screen flex items-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            {/* Photo placeholder */}
+            {/* Photo */}
             <div className="mb-8">
               <div className="w-52 h-52 mx-auto rounded-full overflow-hidden ring-2 ring-white/30">
                 <img src="/profileCrop.jpeg" alt="Profile" className="w-full h-full object-cover" />
@@ -242,7 +242,7 @@ const PersonalWebsite = () => {
                 As a recent CS graduate eager to break into DevOps and Cloud Engineering, I'd love to discuss 
                 entry-level opportunities, internships, or collaborative projects.
               </p>
-              <a href="mailto:your.email@example.com" className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-3 rounded-full hover:from-purple-600 hover:to-pink-600 transition-all transform hover:scale-105">
+              <a href="mailto:cat.hagelis@gmail.com" className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-3 rounded-full hover:from-purple-600 hover:to-pink-600 transition-all transform hover:scale-105">
                 <Mail size={20} /> Send me an email
               </a>
             </div>
