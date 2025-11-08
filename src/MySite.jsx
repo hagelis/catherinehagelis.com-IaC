@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Github, Linkedin, Mail, ExternalLink, Menu, X, Code, MessageSquare, GraduationCap, Award } from 'lucide-react';
+import { Github, Mail, ExternalLink, Menu, X, MessageSquare, GraduationCap, Award } from 'lucide-react';
 
 const PersonalWebsite = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -152,8 +152,16 @@ const PersonalWebsite = () => {
                 cloud-native projects.
               </p>
               <div className="flex space-x-4">
-                <a href="#" className="text-white hover:text-purple-300 transition-colors" aria-label="GitHub"><Github size={24} /></a>
-                <a href="#" className="text-white hover:text-purple-300 transition-colors" aria-label="LinkedIn"><Linkedin size={24} /></a>
+                {/* target and rel make it so the link opens in a new tab instead of navigating away from my site */}
+                <a 
+                  href="https://github.com/hagelis" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white hover:text-purple-300 transition-colors" 
+                  aria-label="GitHub">
+                  <Github size={24} />
+                </a>
+
                 <a href="#" className="text-white hover:text-purple-300 transition-colors" aria-label="Email"><Mail size={24} /></a>
               </div>
             </div>
