@@ -77,7 +77,7 @@ This project uses the following AWS services:
 - **GitHub Actions** for continuous deployment  
 
 ## Screenshot:
-
+![personal-site](https://github.com/user-attachments/assets/ef5f0cdc-25a4-4095-9f63-fe74537161b2)  
 
 ## License
 
