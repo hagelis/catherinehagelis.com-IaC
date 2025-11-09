@@ -250,7 +250,15 @@ const PersonalWebsite = () => {
                     ))}
                   </div>
                   <div className="flex space-x-4">
-                    <a href={project.github} className="text-white hover:text-purple-300 transition-colors" aria-label="External link"><ExternalLink size={20} /></a>
+                    <a 
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-white hover:text-purple-300 transition-colors" 
+                      aria-label="External link">
+                      <ExternalLink size={20} />
+                      
+                    </a>
                   </div>
                 </div>
               </div>
