@@ -6,9 +6,9 @@ const PersonalWebsite = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   const projects = [
-    { title: "Personal Portfolio Website", 
-      description: "Developed a responsive personal website using React, Vite, and Tailwind CSS, then containerized and deployed it to AWS using Docker and Terraform. The site is fully automated with infrastructure as code and serves as a live example of practical DevOps deployment.", 
-      tech: ["React","Vite","Tailwindcss","Docker","Terraform","AWS S3","Route 53"], 
+    { title: "Portfolio Website", 
+      description: "Developed a responsive portfolio website using React, Vite, and Tailwind CSS, then containerized and deployed it to AWS using Docker and Terraform. The site is fully automated with infrastructure as code and serves as a live example of practical DevOps deployment.", 
+      tech: ["React","Vite","Tailwindcss","AWS S3","Route 53"], 
       github: "https://github.com/hagelis/catherinehagelis.com.git", 
       live: "https://catherinehagelis.com",
       image: "/images/personal-site.jpeg",
