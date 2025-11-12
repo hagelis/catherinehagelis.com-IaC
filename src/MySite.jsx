@@ -134,7 +134,7 @@ const PersonalWebsite = () => {
               <h3 className="text-2xl font-bold text-white mb-6">Recent Graduate & Aspiring DevOps Engineer</h3>
               <p className="text-gray-300 text-lg mb-6">
                 Computer Science student at Arizona State University (graduating December 2025) with a passion 
-                for DevOps practices, cloud infrastructure, and automation. I love bridging the gap between 
+                for DevOps practices, cloud infrastructure, SRE, and automation. I love bridging the gap between 
                 development and operations to create efficient, scalable systems.
               </p>
               <p className="text-gray-300 text-lg mb-6">
